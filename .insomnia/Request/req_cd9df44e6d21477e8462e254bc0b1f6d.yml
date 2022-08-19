@@ -1,9 +1,9 @@
 _id: req_cd9df44e6d21477e8462e254bc0b1f6d
 type: Request
 parentId: fld_7c86697af452466d9345845c2e434e32
-modified: 1660951337596
+modified: 1660952456259
 created: 1658795331472
-url: "{{url}}/exams"
+url: "{{ _.base_url }}/exams"
 name: Create exam
 description: ""
 method: POST

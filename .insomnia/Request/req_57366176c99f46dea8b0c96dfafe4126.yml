@@ -1,9 +1,9 @@
 _id: req_57366176c99f46dea8b0c96dfafe4126
 type: Request
 parentId: wrk_200d86020f9e48b5a4bc0a6f993c77fc
-modified: 1660759970180
+modified: 1660952541288
 created: 1659124751011
-url: "{{url}}/questionaries"
+url: "{{ _.base_url }}/questionaries"
 name: Create Questionary
 description: ""
 method: POST

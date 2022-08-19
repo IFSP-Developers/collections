@@ -1,0 +1,16 @@
+_id: env_b67c997da66941f3840fdb9f53c8ac79
+type: Environment
+parentId: env_b2d75b7b511b5b81ae0811266c2e82be23b7eae0
+modified: 1660952233304
+created: 1660952186298
+name: Prod
+data:
+  base_url: http://backend-api-health-clinic.herokuapp.com
+  role: Patient
+dataPropertyOrder:
+  "&":
+    - base_url
+    - role
+color: "#3ff90b"
+isPrivate: false
+metaSortKey: 1660952186298

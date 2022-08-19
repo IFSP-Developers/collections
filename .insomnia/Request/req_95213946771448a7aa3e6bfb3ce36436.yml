@@ -1,9 +1,9 @@
 _id: req_95213946771448a7aa3e6bfb3ce36436
 type: Request
 parentId: fld_0c92b22829a34e5ebcab129f0ca5ed70
-modified: 1660762659121
+modified: 1660952414295
 created: 1658710174060
-url: "{{url}}/appointments"
+url: "{{ _.base_url }}/appointments"
 name: List all appointments
 description: ""
 method: GET

@@ -1,9 +1,9 @@
 _id: req_24876ffebc0340fdb8548b08465dce01
 type: Request
 parentId: fld_3edcf88ce15648528960a67a0ad66049
-modified: 1660951323627
+modified: 1660952526250
 created: 1660691354437
-url: "{{url}}/{{resource}}"
+url: "{{ _.base_url }}/{{resource}}"
 name: Create specialty "Cardiologista"
 description: ""
 method: POST

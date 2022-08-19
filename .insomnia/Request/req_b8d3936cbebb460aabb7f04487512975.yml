@@ -1,9 +1,9 @@
 _id: req_b8d3936cbebb460aabb7f04487512975
 type: Request
 parentId: fld_3edcf88ce15648528960a67a0ad66049
-modified: 1660691469589
+modified: 1660952529921
 created: 1658782966814
-url: "{{url}}/{{resource}}"
+url: "{{ _.base_url }}/{{resource}}"
 name: List all specialties
 description: ""
 method: GET

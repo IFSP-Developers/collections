@@ -1,9 +1,9 @@
 _id: req_021db7bc86d4481b835ef35a5c3803ba
 type: Request
 parentId: fld_7c86697af452466d9345845c2e434e32
-modified: 1660951337022
+modified: 1660952427260
 created: 1659468600564
-url: "{{url}}/exams/upload"
+url: "{{ _.base_url }}/exams/upload"
 name: Create Image
 description: ""
 method: POST

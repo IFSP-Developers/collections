@@ -1,9 +1,9 @@
 _id: req_16fcb680bb7b44ea94d3c3b6cafc7099
 type: Request
 parentId: wrk_200d86020f9e48b5a4bc0a6f993c77fc
-modified: 1659378604589
+modified: 1660952564921
 created: 1659378322135
-url: http://localhost:3333/schedules
+url: "{{ _.base_url }}/schedules"
 name: Create Schedule
 description: ""
 method: POST

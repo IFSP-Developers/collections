@@ -1,9 +1,9 @@
 _id: req_993bf8ef48854e768587339b74129607
 type: Request
 parentId: wrk_200d86020f9e48b5a4bc0a6f993c77fc
-modified: 1660754037596
+modified: 1660952555082
 created: 1659125081717
-url: http://localhost:3333/questions
+url: "{{ _.base_url }}/questions"
 name: Create Questio
 description: ""
 method: POST

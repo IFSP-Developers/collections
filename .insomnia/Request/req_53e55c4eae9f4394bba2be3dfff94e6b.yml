@@ -1,9 +1,9 @@
 _id: req_53e55c4eae9f4394bba2be3dfff94e6b
 type: Request
 parentId: wrk_200d86020f9e48b5a4bc0a6f993c77fc
-modified: 1660754022730
+modified: 1660952560355
 created: 1659375162286
-url: http://localhost:3333/clinics
+url: "{{ _.base_url }}/clinics"
 name: Create Clinic
 description: ""
 method: POST

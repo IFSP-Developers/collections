@@ -1,9 +1,9 @@
 _id: req_c841ecac9aef4370a612db830f15bfb8
 type: Request
 parentId: fld_5f69d9f3cf4b4d98ba224d04e556fcc7
-modified: 1660695944558
+modified: 1660952513365
 created: 1660691271428
-url: "{{url}}/{{resource}}"
+url: "{{ _.base_url }}/{{resource}}"
 name: Create new doctor
 description: ""
 method: POST

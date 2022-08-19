@@ -1,9 +1,9 @@
 _id: req_5e20b5090460496f880dfd7b77d9e72d
 type: Request
 parentId: fld_3edcf88ce15648528960a67a0ad66049
-modified: 1660951321704
+modified: 1660952521522
 created: 1658783001616
-url: "{{url}}/{{resource}}"
+url: "{{ _.base_url }}/{{resource}}"
 name: Create specialty "Neurologista"
 description: ""
 method: POST

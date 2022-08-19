@@ -1,9 +1,9 @@
 _id: req_a7f2ef6cc11b4dca8561880b7f2f18cc
 type: Request
 parentId: fld_7c86697af452466d9345845c2e434e32
-modified: 1660951338348
+modified: 1660952458400
 created: 1659563724241
-url: "{{url}}/exams/ea6e60a2-d944-4a79-af2f-960c44e4ec92"
+url: "{{ _.base_url }}/exams/ea6e60a2-d944-4a79-af2f-960c44e4ec92"
 name: Get all exams by appointment
 description: ""
 method: GET
