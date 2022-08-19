@@ -1,0 +1,33 @@
+_id: req_84c1b8823fa944908f059c6f7b602d8b
+type: Request
+parentId: wrk_200d86020f9e48b5a4bc0a6f993c77fc
+modified: 1660760130280
+created: 1660757651579
+url: "{{url}}/questionaries"
+name: Update answers
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"questionary_id": "ba248d39-67b9-44b0-9570-204c67568b18",
+    	"answer": "Versao atualizadaaaa"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_483fdf86d6384ed7b317904b2e7dcc93
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4c1bd36fcdab422b9947a9413d750cd2',
+    'b64::JC50b2tlbg==::46b', 'no-history', 60 %}"
+metaSortKey: -1658708422339
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

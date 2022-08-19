@@ -1,0 +1,26 @@
+_id: req_95213946771448a7aa3e6bfb3ce36436
+type: Request
+parentId: fld_0c92b22829a34e5ebcab129f0ca5ed70
+modified: 1660762659121
+created: 1658710174060
+url: "{{url}}/appointments"
+name: List all appointments
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e29628a12f64607b028400ac2e7d017',
+    'b64::JC50b2tlbg==::46b', 'no-history', 60 %}"
+  prefix: ""
+  disabled: false
+metaSortKey: -1660687019692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
