@@ -1,7 +1,7 @@
 _id: req_24876ffebc0340fdb8548b08465dce01
 type: Request
 parentId: fld_3edcf88ce15648528960a67a0ad66049
-modified: 1660952526250
+modified: 1666146217667
 created: 1660691354437
 url: "{{ _.base_url }}/{{resource}}"
 name: Create specialty "Cardiologista"
@@ -11,7 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Cardiologista"
+    	"name": "Cardiologista",
+    	"duration": 900000 
     }
 parameters: []
 headers:

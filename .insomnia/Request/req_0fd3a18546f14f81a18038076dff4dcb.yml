@@ -1,7 +1,7 @@
 _id: req_0fd3a18546f14f81a18038076dff4dcb
 type: Request
 parentId: fld_5f69d9f3cf4b4d98ba224d04e556fcc7
-modified: 1660952508234
+modified: 1666146222138
 created: 1659362541320
 url: "{{ _.base_url }}/{{resource}}"
 name: Create new doctor
@@ -20,7 +20,7 @@ body:
     	"gender": "f",
     	"birthday": "01/01/1990",
     	"address": "Rua dos Testes Verbosos",
-    	"specialty_id": "{% response 'body', 'req_5e20b5090460496f880dfd7b77d9e72d', 'b64::JC5pZA==::46b', 'always', 60 %}"
+    	"specialty_ids": ["{% response 'body', 'req_5e20b5090460496f880dfd7b77d9e72d', 'b64::JC5pZA==::46b', 'always', 60 %}"]
     }
 parameters: []
 headers:

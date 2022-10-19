@@ -1,7 +1,7 @@
 _id: req_5e20b5090460496f880dfd7b77d9e72d
 type: Request
 parentId: fld_3edcf88ce15648528960a67a0ad66049
-modified: 1660952521522
+modified: 1666146218827
 created: 1658783001616
 url: "{{ _.base_url }}/{{resource}}"
 name: Create specialty "Neurologista"
@@ -11,7 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Neurologista"
+    	"name": "Neurologista",
+    	"duration": 1800000
     }
 parameters: []
 headers:
